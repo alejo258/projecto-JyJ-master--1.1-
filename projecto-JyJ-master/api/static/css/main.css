@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+.title{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: rgb(218, 218, 218);
+    margin-top: 0.5%;
+    padding-top: 1%;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-bottom: 1%;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.background{
+    text-align: center; 
+    padding-top: 1.5%;
+    background-color:rgb(218, 218, 218);
+    background-image: url(../images/Diseño\ sin\ título.png);
+    background-size: cover;
+    
+    
+}
+.navegacion{   
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 0% 2% 0% 2%;   
+    border-radius: 1rem;
+    font-family: 'Happy Monkey', cursive;
+    background-color: rgb(255, 58, 58); 
+   
+}
+.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: .3rem;
+    overflow: hidden;
+}
+.li{
+    float: left;
+    margin-left: 1rem;
+}
+.li > a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem .5rem;
+    font-size:large ;
+}
+
+
+.cuadro_principal{
+    
+    padding:1%1%1%1%;
+    margin: 1% 10% 1% 10%;
+    border-radius: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    font-family: 'Happy Monkey', cursive;
+    background-color: rgb(218, 218, 218);
+}
+.center{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.log{
+    display: flex;
+    justify-content: end;
+    padding-right: 3%;
+    text-decoration: none;
+    font-family: 'Happy Monkey', cursive;
+    
+}
+
+
+.ir{
+    margin-left: 75%;
+    padding-right:10% ;
+    margin-right: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+
+    
+}
+.productos{
+    justify-content: space-around;
+    
+
+}
+.text_productos{
+    padding-top: 5%;
+    margin-top: 5%;
+}
+.img_productos{
+    border-radius: 1.5rem 3rem 1.5rem 3rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+}

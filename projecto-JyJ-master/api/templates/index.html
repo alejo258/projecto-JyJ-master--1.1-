@@ -1,0 +1,77 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+
+<div class="background">
+    <div class="title">
+        <h1 >Proyectos y Construcciones J y J S.A.S</h1>
+        <p >NIT: 901 104 067-9</p>
+    </div>
+    <div>
+        <button class="btn ir"><a href="{% url 'login'%}" style="text-decoration: none; color: rgb(0, 0, 0);"><i class="fa-regular fa-user"></i> Iniciar Sesión </a> </button>
+    </div>
+    
+    <nav class="navegacion">
+        <ul class="ul"> 
+            <li class="li"><a href="#proyectos">Proyectos Realizados</a></li>
+            <li class="li"><a href="#materiales">Materiales</a></li>
+            <li class="li"><a href="#mision">Misión</a></li>
+            <li class="li"><a href="#vision">Visión</a></li>
+            <li class="li"><a href="#objetivos">Objetivos</a></li>
+            <li class="li"><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main class="cuadro_principal">
+        <section id="proyectos" class="center">
+            <h2>Proyectos Realizados:</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi cumque dicta eaque enim in corrupti sequi possimus consectetur voluptatem! Repudiandae odio libero reprehenderit maxime doloremque nihil? Repudiandae nobis cum dolor.</p>
+        </section>
+        <section id="materiales" class="center">
+            <h2>Materiales:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quis dolorum. Adipisci, maxime non. Fugiat, quasi corporis libero, qui expedita sint perspiciatis veniam doloremque sequi consectetur quas non optio eius.</section>
+        
+        <section id="mision" class="center">
+            <h2>Misión:</h2>
+            <p>PROYECTOS Y CONSTRUCCIONES J&J S.A.S, es una sociedad del sector de
+                la construcción, dedicada a ofrecer servicios de carpintería en aluminio, obra civil,
+                remodelación y adecuación de inmuebles; satisfaciendo de este modo las
+                necesidades de los clientes antes, durante y después de finalizado el proyecto;
+                contando con un personal que reúne excelentes cualidades humanas y
+                profesionales, considerados como el mayor recurso de este modo comprometida
+                para garantizarles una justa remuneración.
+                Se encuentra en la firme búsqueda de establecer relaciones duraderas con los
+                clientes y proveedores, que le permitan contribuir al desarrollo del país
+                fomentando la preservación del medio ambiente y la generación de empleo
+                calificado.</p>
+        </section>
+        <section id="vision" class="center">
+            <h2>Visión:</h2>
+            <p>Para el 2.022, ser una sociedad del gremio de la construcción con gran
+                reconocimiento a nivel local, destacada por anticipar las expectativas y
+                necesidades de los clientes, esto a través del desarrollo de los proyectos en
+                tiempos óptimos; apoyados en el activo más importante el personal, insistentes en
+                la mejora continua de los procesos y de este modo poder ofrecer siempre servicios
+                de calidad a los clientes.</p>
+        </section>
+        <section id="objetivos" class="center">
+            <h2>Objetivos:</h2>
+            <p>- Lograr una adecuada acreditación y reconocimiento a nivel local.</p>
+            <p>- Obtener estabilidad para que los clientes se sientan seguros a la hora de
+                depositar en la compañía sus proyectos, avalados por la calidad y
+                puntualidad.</p>
+            <p>- Mantenerse a la vanguardia en cuanto a diseños y tecnologías,
+                implementando continuamente tendencias de acuerdo a las exigencias del
+                mercado.</p>
+        </section>
+        <section id="contacto" class="center contacto">
+            <h2>Contacto:</h2>
+            <i class="fa-brands fa-whatsapp" style=" color: black;"></i><a href="https://wa.link/27cj2x" style="text-decoration: none; color: rgb(255, 58, 58) ;"> 3125023658</a>
+            <i class="fa-brands fa-whatsapp"></i><a href="https://wa.link/14wa5s" style="text-decoration: none; color: rgb(255, 58, 58) ;"> 3113758898</a>
+            <i class="fa-solid fa-phone"></i><a href="tel:+3125023658" style="text-decoration: none; color: rgb(255, 58, 58) ;"> 3125023658</a>
+            <i class="fa-solid fa-phone"></i><a href="tel:+3113758898" style="text-decoration: none; color: rgb(255, 58, 58) ;"> 3113758898</a>
+            <i class="fa-regular fa-envelope"></i><a href="mailto:proyectosyconstruccionesjyjsas@gmail.com" style="text-decoration: none; color: rgb(255, 58, 58) ;"> proyectosyconstruccionesjyjsas@gmail.com</a>
+            <h2>Dirección:<p>Calle #10 N° 2-32 - Barrio la Gaviota - Ibagué</p></h2>
+        </section>
+    </main>
+</div>
+{% endblock %}
